@@ -17,15 +17,15 @@ fisher ls-remote
 fisher help
 
 ## Install Bass - lets you run Bash scripts insode Fish
-- https://github.com/edc/bass
+\# - https://github.com/edc/bass<br/>
 fish edc/bass
 
 # Gcloud tools with fish (via bass)
-Google add these bash commands to ~/.bashrc
+\# Google add these bash commands to ~/.bashrc<br/>
 source '/home/dan/Software/google-cloud-sdk/path.bash.inc'
 source '/home/dan/Software/google-cloud-sdk/completion.bash.inc'
 
-Instead we add the following to ~/.config/fish/config.fish
+\# Instead we add the following to ~/.config/fish/config.fish<br/>
 bass source '/home/dan/Software/google-cloud-sdk/path.bash.inc'
 bass source '/home/dan/Software/google-cloud-sdk/completion.bash.inc'
 
