@@ -16,8 +16,8 @@ fisher ls-remote
 ## Get help
 fisher help
 
-## Install Bass - lets you run Bash scripts insode Fish
-\# - https://github.com/edc/bass<br/>
+## Install Bass - lets you run Bash scripts inside Fish
+\# https://github.com/edc/bass<br/>
 fish edc/bass
 
 # Gcloud tools with fish (via bass)
