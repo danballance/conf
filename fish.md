@@ -1,7 +1,7 @@
 # Notes for the Fish shell
 
 ## Set default shell to fish
-chsh -s `which fish`
+chsh -s \`which fish\`
 
 ## Launch web editor and set theme ("Tomorrow Night" is nice)
 fish_config
