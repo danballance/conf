@@ -7,7 +7,8 @@ chsh -s \`which fish\`
 fish_config
 
 ## Install a fish plugin manager
-sudo apt-get install git
+sudo apt-get install git curl
+
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisher
 
 ## List all plugins available
