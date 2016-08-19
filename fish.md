@@ -19,7 +19,7 @@ fisher help
 
 ## Install Bass - lets you run Bash scripts inside Fish
 \# https://github.com/edc/bass<br/>
-fish edc/bass
+fisher edc/bass
 
 # Gcloud tools with fish (via bass)
 \# Google add these bash commands to ~/.bashrc<br/>
