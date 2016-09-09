@@ -33,7 +33,7 @@ bass source '/home/dan/Software/google-cloud-sdk/completion.bash.inc'
 # Use nvm with fish
 git clone git://github.com/passcod/nvm-fish-wrapper.git ~/.config/fish/nvm-wrapper<br/>
 echo "source ~/.config/fish/nvm-wrapper/nvm.fish" >> ~/.config/fish/config.fish<br/>
-source ~/.config/fish/config.fish
+source ~/.config/fish/config.fish<br/>
 nvm ls-remote
 
 
