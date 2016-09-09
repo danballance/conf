@@ -31,10 +31,13 @@ bass source '/home/dan/Software/google-cloud-sdk/path.bash.inc'<br/>
 bass source '/home/dan/Software/google-cloud-sdk/completion.bash.inc'
 
 # Use nvm with fish
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash<br/>
 git clone git://github.com/passcod/nvm-fish-wrapper.git ~/.config/fish/nvm-wrapper<br/>
 echo "source ~/.config/fish/nvm-wrapper/nvm.fish" >> ~/.config/fish/config.fish<br/>
 source ~/.config/fish/config.fish<br/>
-nvm ls-remote
+nvm ls-remote<br/>
+nvm install stable<br/>
+nvm current
 
 
 
