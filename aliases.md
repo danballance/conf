@@ -9,4 +9,5 @@ alias aliases="cat ~/.zshrc | grep ^alias"
 alias rmi-dangling='docker rmi $(docker images -f "dangling=true" -q)'
 alias docker-stop-all='docker stop $(docker ps -a -q)'
 alias docker-rm-all='docker rm $(docker ps -a -q)'
+alias docker-ip="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"
 ```
